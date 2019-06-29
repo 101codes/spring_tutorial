@@ -6,8 +6,6 @@ LABEL maintainer="sophea"
 
 # Add a volume pointing to /tmp
 VOLUME /tmp
-# RUN apk update && apk add bash
-# RUN apt-get install mvn -y
 # RUN mvn clean package
 
 # Make port 8080 available to the world outside this container
